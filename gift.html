@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>miellyttävä yllätys</title>
+        <style>
+            #hidden-message {
+                opacity: 0;
+                font-size: 1em;
+                transition: opacity 1s ease;
+            }
+
+            body{
+                background-color: pink;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                margin-top: 20%;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h1 {
+                font-size: 3em;
+                margin-bottom: 0.5em;
+            }
+            p {
+                font-size: 1.2em;
+                opacity: 0.75;
+            }
+            p2 {
+                font-size: 1em;
+                opacity: 0.8;
+                position: fixed;
+                bottom: 10px;
+                left: 15px;
+                color: #f0f0f0;
+            }
+
+
+        </style>
+	</head>
+	<body>
+		<script src="confetti.min.js"></script>
+        <script src="katya.js"></script>
+		<h1>Hyvää pääsiäistä, Katya 🐣</h1>
+		<p>Halusin vain toivottaa sinulle hyvää lomaa ja paljon hymyä.</p>
+        <p2>Yritä napsauttaa.</p2>
+        <p id="hidden-message">En tiedä huomaatko, mutta minä pidän sinusta.</p>
+	</body>
+</html>
