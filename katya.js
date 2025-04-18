@@ -19,3 +19,7 @@ document.addEventListener('click', function (event) {
     window.addEventListener("resize", updateHiddenMessage);
   });
   
+  document.getElementById("secret-zone").addEventListener("click", function () {
+    document.getElementById("hidden-message").style.opacity = 1;
+  });
+    
