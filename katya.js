@@ -8,6 +8,13 @@ document.addEventListener('click', function (event) {
       origin: { x: x, y: y }
     });
   });
+
+  document.addEventListener("click", function () {
+    const bgm = document.getElementById("bgm");
+    bgm.muted = false;
+    bgm.play();
+  });
+  
   window.addEventListener("load", function () {
     function updateHiddenMessage() {
       let zoom = window.outerWidth / window.innerWidth;
